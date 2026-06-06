@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: pdi-pro-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false          # set manually in Render dashboard
+      - key: JWT_SECRET
+        sync: false          # set manually in Render dashboard
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false          # set manually in Render dashboard
+      - key: CLOUDINARY_API_KEY
+        sync: false          # set manually in Render dashboard
+      - key: CLOUDINARY_API_SECRET
+        sync: false          # set manually in Render dashboard
