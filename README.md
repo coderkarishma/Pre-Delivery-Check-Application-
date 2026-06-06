@@ -1,6 +1,6 @@
-# PDC Pro Delivery Check Application
+#Pre Delivery Check Application
 
-PDC Pro Delivery Check Application is a full-stack web app for managing vehicle delivery inspections. It features a modern React/TypeScript frontend and a Node.js/Express backend, with MongoDB for data storage and Cloudinary for image uploads.
+Pre Delivery Check Application is a full-stack web app for managing vehicle delivery inspections. It features a modern React/TypeScript frontend and a Node.js/Express backend, with MongoDB for data storage and Cloudinary for image uploads.
 
 ## Features
 - User authentication (register/login)
